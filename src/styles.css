@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+} /* Chrome/Opera/Safari */
+::-moz-placeholder {
+  color: white;
+} /* Firefox 19+ */
+:-ms-input-placeholder {
+  color: white;
+} /* IE 10+ */
+:-moz-placeholder {
+  color: white;
+}
