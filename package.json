@@ -10,10 +10,17 @@
   "dependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/icons": "4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
     "@material-ui/styles": "4.11.4",
+    "@reduxjs/toolkit": "^1.5.1",
+    "caniuse-lite": "^1.0.30001228",
+    "material-table": "^1.69.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "^4.1.0"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -23,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "JsonServer": "json-server --watch Recipie.json --port 3004"
   },
   "browserslist": [
     ">0.2%",
