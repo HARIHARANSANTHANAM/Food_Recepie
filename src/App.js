@@ -1,6 +1,5 @@
 import "./styles.css";
 import Appbar from "./components/Appbar";
-import VideoPlayer from './components/VideoPlayer'
 import React from 'react';
 import MenuCard from "./components/MenuCard";
 import Table from './components/Table';
